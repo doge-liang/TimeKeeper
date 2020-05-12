@@ -1,0 +1,22 @@
+<template name="project-single-item">
+  <view bind:tap="projectDetail" data-itemId="{{ id }}" class="single-item">
+    <text class="project-title"> {{name}} </text>
+    <view class="icon">
+      <van-circle 
+      class="schedule-circle"
+      type="2d"
+      value="{{ schedule }}" 
+      size="24"
+      stroke-width="2" 
+      text="{{ schedule }}"/>
+      <view 
+      data-itemId="{{ id }}"
+      class="option-btn" 
+      hover-class="hover" 
+      hover-stay-time="200"
+      catch:tap="option">
+        <van-icon name="../../../../images/more.svg" size="20px" />
+      </view>
+    </view>
+  </view>
+</template>

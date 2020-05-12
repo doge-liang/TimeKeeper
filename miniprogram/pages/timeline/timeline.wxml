@@ -1,0 +1,6 @@
+<!--pages/timeline/timeline.wxml-->
+<van-cell title="展示弹出层" is-link bind:click="showPopup" />
+
+<van-popup show="{{ show }}" bind:close="onClose">内容</van-popup>
+
+<van-circle type="2d" size="24" value="50" stroke-width="2" />

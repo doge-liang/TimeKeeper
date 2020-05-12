@@ -1,0 +1,22 @@
+/* miniprogram/pages/project/project.wxss */
+@import "/templates/project/project.wxss";
+
+Page {
+  --single-item-background-color: skyblue;
+}
+
+.menu {
+  background: whitesmoke !important;
+}
+
+.van-button--primary {
+  width: 600rpx !important;
+}
+
+.fixed-btn {
+  width: 600rpx;
+  position: fixed;
+  bottom: 40rpx;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/project/project",
+    "pages/timeline/timeline",
+    "pages/timer/timer"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "TimeKeeper",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/project/project",
+        "text": "项目",
+        "iconPath": "images/project.png",
+        "selectedIconPath": "images/project-activated.png"
+      },
+      {
+        "pagePath": "pages/timeline/timeline",
+        "text": "时间线",
+        "iconPath": "images/timeline.png",
+        "selectedIconPath": "images/timeline-activated.png"
+      },
+      {
+        "pagePath": "pages/timer/timer",
+        "text": "计时",
+        "iconPath": "images/timer.png",
+        "selectedIconPath": "images/timer-activated.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

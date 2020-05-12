@@ -1,0 +1,51 @@
+.single-item {
+  display: flex;
+  background: var(--single-item-background-color);
+  height: 100rpx;
+  width: 600rpx;
+  align-items: center;
+  padding: 5rpx 50rpx 5rpx 50rpx;
+  justify-content: space-between;
+  margin: 20rpx 0 0 0;
+  border-radius: 20rpx;
+  box-shadow: 5rpx 5rpx 10rpx #bdbdbd;
+}
+
+text.project-title {
+  max-width: 400rpx;
+  font-size: 1rem;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.hover {
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 10%);
+}
+
+.option-btn {
+  height: 60rpx;
+  width: 60rpx;
+  border-radius: 30rpx 30rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.schedule-circle {
+  --circle-text-color: gray;
+  font-size: 0.6rem;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 120rpx;
+  height: 100rpx;
+  align-items: center;
+}
